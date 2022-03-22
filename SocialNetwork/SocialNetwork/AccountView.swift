@@ -98,8 +98,7 @@ struct LogoutButton: View {
                 account.online.toggle()
             }
         } label: {
-            
-                Text("Log\(account.online ? "out" : "in")")
+            Text("Log\(account.online ? "out" : "in")")
         }
         .SNButtonStyle()
     }
